@@ -31,3 +31,29 @@ let x={
 
 
 console.log(typeof(c));
+////////////////////////////////////////////////////////MEMORY/////////////////////
+
+//stack (primitive) (impacts the copry), heap(non primitive)(impacts the original value )
+
+let myName ="samy"
+let anotherName= myName
+ myName="shetty"
+
+console.log(myName + anotherName);
+
+//let n,e
+
+let ob={
+    n:"rox",
+    e:"abc@ybl"
+
+
+}
+
+let o=ob
+o.n="dog"
+//o.n="dog"
+
+console.log(ob);
+console.log(o.n);
+console.log(ob.n)
